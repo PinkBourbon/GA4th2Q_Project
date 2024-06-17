@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossArm.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BreathObject.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneObject.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="thornObject.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPlayer.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>about Scene\ScneneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Curtain_side.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Curtain_top.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTable.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIContoller.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillDice.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAttack.cpp">
+      <Filter>Objects\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackController.cpp">
+      <Filter>Objects\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDice.cpp">
+      <Filter>Objects\Dice</Filter>
+    </ClCompile>
+    <ClCompile Include="DiceController.cpp">
+      <Filter>Objects\Dice</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEmblem.cpp">
+      <Filter>about Scene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>about Scene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StartCutScene.cpp">
+      <Filter>about Scene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>about Scene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageViewer.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCutScene.cpp">
+      <Filter>about Scene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit.cpp">
+      <Filter>about Scene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BossArmCoverage.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditPrinter.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Boss.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossArm.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossState.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BreathObject.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneObject.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="thornObject.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>EntryPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPlayer.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>about Scene\ScneneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Curtain_side.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Curtain_top.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTable.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIContoller.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillDice.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAttack.h">
+      <Filter>Objects\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackController.h">
+      <Filter>Objects\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDice.h">
+      <Filter>Objects\Dice</Filter>
+    </ClInclude>
+    <ClInclude Include="DiceController.h">
+      <Filter>Objects\Dice</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageViewer.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEmblem.h">
+      <Filter>about Scene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>about Scene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StartCutScene.h">
+      <Filter>about Scene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>about Scene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingCutScene.h">
+      <Filter>about Scene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit.h">
+      <Filter>about Scene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BossArmCoverage.h" />
+    <ClInclude Include="CreditPrinter.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Boss">
+      <UniqueIdentifier>{95e52af9-400e-479c-ac92-c8afb538ec1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EntryPoint">
+      <UniqueIdentifier>{eb944c90-2f8e-49f4-8a3a-ee867cff2a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{10bc001d-bc71-4f08-905c-2f2dba9a75bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{2dd9e5bc-306b-4f95-893d-1e8c4a32bccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="about Scene">
+      <UniqueIdentifier>{60b910f7-6778-46a5-bbab-63f2ec242158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="about Scene\Scene">
+      <UniqueIdentifier>{d244371d-87b4-4811-9d49-114698e99993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="about Scene\ScneneManager">
+      <UniqueIdentifier>{fa96b568-d315-47a2-ab5a-8526bbe30948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Background">
+      <UniqueIdentifier>{e0f806a7-e148-4d69-8642-3205dd6389f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{f4372667-4e3c-4a61-8e93-836411a3a4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{6746ba65-6281-4175-a515-29fb6b9d4683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Attack">
+      <UniqueIdentifier>{54bf9cb3-0099-4fe6-8a18-f85f78aa0c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Dice">
+      <UniqueIdentifier>{3299917b-d87b-422c-9c0b-41d95ffa8ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{28d4eb32-81d1-4c10-a10e-a84a34bd1f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{4644e9d0-f40f-482a-8ddb-8b2feeed9f73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

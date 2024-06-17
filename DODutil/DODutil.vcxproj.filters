@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Matrix">
+      <UniqueIdentifier>{2839d41f-c275-4780-bcda-a05db4943a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transform">
+      <UniqueIdentifier>{3857b4b8-c1aa-4b73-b32f-fee3fd102156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KeyManager">
+      <UniqueIdentifier>{da90baaa-cbb5-4d81-a87b-62d29182e833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icomponent">
+      <UniqueIdentifier>{779b1817-891c-4a0b-9e42-1fd1cb8c0396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Subset">
+      <UniqueIdentifier>{9f897a13-a996-4593-a87f-e169e62c5609}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="IComponent.cpp">
+      <Filter>Icomponent</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyComponent.cpp">
+      <Filter>KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Subset.cpp">
+      <Filter>Subset</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sample.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyData.h">
+      <Filter>KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Icomponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyComponent.h">
+      <Filter>KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Subset.h">
+      <Filter>Subset</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

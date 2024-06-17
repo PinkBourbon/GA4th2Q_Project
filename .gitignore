@@ -411,3 +411,16 @@ Lib/
 
 # Build
 Build/
+DODutil/core/inc/fmod.dll
+DODutil/core/inc/fmod_vc.lib
+DODutil/core/inc/fmodL.dll
+DODutil/core/inc/fmodL_vc.lib
+DODutilTest/fmod.dll
+DODutilTest/fmodL.dll
+DODutilTest/TitleMusic.mp3
+DODutilTest/TunnelMusic.mp3
+DODutilTest/core/inc/fmod.dll
+DODutilTest/core/inc/fmod_vc.lib
+DODutilTest/core/inc/fmodL.dll
+DODutilTest/core/inc/fmodL_vc.lib
+DODutilTest/BossMusic.mp3
